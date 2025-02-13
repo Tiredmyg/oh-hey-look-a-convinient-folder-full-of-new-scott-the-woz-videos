@@ -7,7 +7,7 @@ function selectOption(option) {
         // flashing colors
         flashRainbowColors(function () {
             document.getElementById('question').style.display = 'none'; //Hide the question
-            displaycat.gif(); //display maxwell gif
+            displayyippie(); //display maxwell gif
 
         });
     } else if (option === 'no') {
@@ -48,7 +48,7 @@ function displaycat() {
     // container where image is displayed 
     var imageContainer = document.getElementById('image-container');
     // new image element for kibby
-    var catImage = new image();
+    var catImage = new Image();
     // source file path for the cat
     catImage.src = 'cat.gif'; //assuming cat gif is called so
     //set alternative text for image 
@@ -66,7 +66,7 @@ function displayyippie() {
     //get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     //new image element to yippie cat
-    var yippieImage = new image();
+    var yippieImage = new Image();
     //set the source for the file path 
     yippieImage.src = 'yippie.gif';
     //set alternative text for image 
