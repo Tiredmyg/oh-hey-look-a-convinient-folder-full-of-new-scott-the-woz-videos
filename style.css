@@ -1,0 +1,40 @@
+/*style.css*/
+
+body {
+    font-family: Arial, sans-serif; /*fallback font family*/
+    text-align: center; /*centeralign text*/
+    margin: 0; /*removes the default margin*/
+    background-color: #fadadd; /*hopefully sets the background to light pink lmao*/
+}
+
+#container {
+    display: flex; /*uses flexbook layout*/
+    flex-direction: column; /*stacks my shit vertically*/
+    align-items: center; /*center aligns my shit horizontally*/
+    justify-content: center; /*center aligns my shit vertically again*/
+    height: 100vh; /*makes the container full viewport high*/
+}
+
+#image-container {
+    /*this will hold my images*/
+}
+
+#question{
+    font-family: 'sacramento', cursive; /*applies sacramento font to the question*/
+    font-size: 52px; /*sets font size for question as well*/
+}
+
+#options{
+    margin-top: 20px; /*adds space above the questions*/
+}
+
+button{
+    padding: 10px 20px; /* sets padding to the buttons*/
+    margin: 0 10px; /*sets margin around buttons*/
+    font-size: 26px; /*sets font size for buttons*/
+    font-family: 'sacramento' , cursive; /*applies font to buttons too*/
+    background-color: #fb607f; /* sets background color for button*/
+    color: white; /*sets color for text as white*/
+    border: none; /*removes button burder*/
+    cursor: pointer; /*sets cursor to pointer on hover*/
+}
