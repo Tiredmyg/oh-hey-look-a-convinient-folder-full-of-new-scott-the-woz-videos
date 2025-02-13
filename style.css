@@ -20,7 +20,7 @@ body {
 }
 
 #question{
-    font-family: 'sacramento', cursive; /*applies sacramento font to the question*/
+    font-family: 'sacramento'; /*applies sacramento font to the question*/
     font-size: 52px; /*sets font size for question as well*/
 }
 
@@ -32,7 +32,7 @@ button{
     padding: 10px 20px; /* sets padding to the buttons*/
     margin: 0 10px; /*sets margin around buttons*/
     font-size: 26px; /*sets font size for buttons*/
-    font-family: 'sacramento' , cursive; /*applies font to buttons too*/
+    font-family: 'sacramento'; /*applies font to buttons too*/
     background-color: #fb607f; /* sets background color for button*/
     color: white; /*sets color for text as white*/
     border: none; /*removes button burder*/
